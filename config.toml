@@ -1,5 +1,5 @@
-baseurl = "https://www.diegoroque.me"
-title = "My site."
+baseurl = "http://www.mattersmathematical.com/"
+title = "Matters Mathematical"
 copyright = "Copyright (c) 2017, all rights reserved."
 canonifyurls = true
 languageCode = "en-US"
@@ -10,7 +10,7 @@ googleAnalytics = ""
 disqusShortname = ""
 
 [author]
-  name = ""
+  name = "Diego Roque"
 
 SectionPagesMenu = "main"
 
@@ -36,11 +36,10 @@ pygmentsCodeFences = true
   description = "Personal blog."
 
 [params]
-  github = "github id"
-  gitlab = "gitlab id"
-  twitter = "twitter id"
-  linkedin = "linkedin id"
-  email = "myemail"
+  github = "diego9627"
+  twitter = "__gcd"
+  linkedin = "diegoaroque"
+  email = "droque@mit.edu"
 
 [params.colors]
   # hugo-dusk colors
