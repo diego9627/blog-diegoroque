@@ -10,7 +10,7 @@ googleAnalytics = ""
 disqusShortname = ""
 
 [author]
-  name = "Diego Roque"
+  name = ""
 
 SectionPagesMenu = "main"
 
@@ -32,14 +32,14 @@ pygmentsCodeFences = true
   url = "/tags/"
 
 [params.meta]
-  keywords = "blog, tech"
+  keywords = "blog, math"
   description = "Personal blog."
 
 [params]
-  github = "diego9627"
+#  github = "diego9627"
   twitter = "__gcd"
-  linkedin = "diegoaroque"
-  email = "droque@mit.edu"
+#  linkedin = "diegoaroque"
+#  email = "droque@mit.edu"
 
 [params.colors]
   # hugo-dusk colors
