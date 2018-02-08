@@ -84,7 +84,7 @@ A sheave satisfy that annoying to write sheaf condition.
 The pair \\((C,J)\\) is a grothendieck site. The class of sheaves on this site is called a topos.
 
 An interesting one, appart from the topological ones, is the following. Consider that 
-\\(C\\) is categorical. We say \\(\{U_i\to X\}\\) cover \\(X\\) if theres a finite union that 
+\\(C\\) is categorical. We say \\( \\{ U_i\to X\\}\\) cover \\(X\\) if theres a finite union that 
 covers it. 
 
 # Not AdjS
