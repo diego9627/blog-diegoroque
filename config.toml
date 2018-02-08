@@ -31,6 +31,18 @@ pygmentsCodeFences = true
   identifier = "tag"
   url = "/tags/"
 
+[[menu.main]]
+  name = "About"
+  weight = -100
+  identifier = "about"
+  url = "/about/"
+
+[[menu.main]]
+  name = "Public TODO"
+  weight = -90
+  identifier = "todo"
+  url = "/todo/"
+
 [params.meta]
   keywords = "blog, math"
   description = "Personal blog."
