@@ -2,7 +2,7 @@
 title: "Feb 9 2018 Notes"
 date: 2018-02-09T01:44:41-05:00
 draft: false
-tags: ["18.702", "CatLog"]
+tags: ["18.702", "CatLog", "PLV Lunch"]
 ---
 
 # 18.702
@@ -31,6 +31,35 @@ Averaging trick: For a finite group, consider \\(\sum_{g\in G} \rho(g)\\). This 
 satisfy certain properties. In particular, if we apply any \\(\tilde{w}\\) to it, 
 it will return a constant fixpoint of all representations. It might be zero though.
 
+# PLV Lunch
+
+Talked about Spectre and Meltdown. One takeaway is that it's timing attacks, and the leaking 
+of secrets isn't done by reading the cache, but by learning which addresses were used 
+by timing the speed of access. 
+
+Spectre is a problem of speculative execution, since it executes branches, unrolls them
+if prediction fails, but can't unrole some side effects like touching cache. 
+You take advantage of prediction by engineering a situation where it fails,
+something like commonly being a correct choice then once in a while not be. 
+A common one is bound checking.
+
+```
+if(pos < len)
+    array[pos]
+    if(array[pos]&2^i == 0) hitcache(i)
+```
+
+Note that it hits the cache, it doesn't write on it.
+
+Loops aren't a problem because they use registers and even though it's the pattern of
+always true then false so it would normally be a failed prediction, it uses registers
+where there are no problems.
+
+Apparently it affects some of AMD/Intel but not all processors. Fixing it requires some
+modification to speculative execution, which can have a big penalty.
+
+Talk about using formal verification to fix all these problems. 
+
 # CatLog
 
 Define topos as a category equivalent to sheaves on a site, so \\(X\simeq \text{Sh}(C,J)\\).
@@ -49,3 +78,4 @@ that Set is locally presentable, and that \\(Set^C\\) is locally presentable, he
 the category of presheaves is locally presentable. Hence left exact adjoint.
 
 But this is kinda cheating, because it's an axiom.
+
