@@ -13,4 +13,3 @@ draft: false
     - Current : Chapter I
 - [ ] DRP Problems
     - Notes?
-- [ ] Retroactive notes

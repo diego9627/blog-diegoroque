@@ -19,6 +19,10 @@ of the corresponding matrix and \\(A\\) is just the old adjacency matrix.
 
 Magical stuff happens when you consider the eigenvalues of \\(L\\). 
 
+The laplacian as a linear operator \\([L_G x]_i = \deg(i)(x(i) - \text{avg of x in neighboors})\\). All ones vector in the kernel. As many 0's as connected components, and else is positive.
+
+The quadratic form is basically a minimization of squares of distances.
+
 # 18.S996
 
 Condorcet: Suppose you have a group of people deciding something. What is the best way to do it?
@@ -84,8 +88,8 @@ A sheave satisfy that annoying to write sheaf condition.
 The pair \\((C,J)\\) is a grothendieck site. The class of sheaves on this site is called a topos.
 
 An interesting one, appart from the topological ones, is the following. Consider that 
-\\(C\\) is categorical. We say \\( \\{ U_i\to X\\}\\) cover \\(X\\) if theres a finite union that 
-covers it. 
+\\(C\\) is categorical. We say \\( \\{ U_i\to X\\}\\) cover \\(X\\) if theres a finite 
+union that covers it. 
 
 # Not AdjS
 
