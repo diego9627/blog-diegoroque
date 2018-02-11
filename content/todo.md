@@ -9,7 +9,7 @@ draft: false
     - Current: Mathematical Foundations for a Compositional Distributional Model of Meaning
 - [ ] Retroactive Notes
 - [ ] Aluffi : Chapter 0
-    - Current : Chapter II
+    - Current : Chapter III
 - [ ] Categorical Homotopy Theory
     - Current : Chapter I
 - [ ] DRP Problems
