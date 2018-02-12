@@ -5,8 +5,8 @@ draft: false
 ---
 
 - [ ] Reading Applied Category
-    - Current: A categorical semantics for causal structure
     - Current: Mathematical Foundations for a Compositional Distributional Model of Meaning
+    - Current: A categorical semantics for causal structure
 - [ ] Retroactive Notes
 - [ ] Aluffi : Chapter 0
     - Current : Chapter III
