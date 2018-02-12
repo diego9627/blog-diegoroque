@@ -1,7 +1,7 @@
 ---
 title: "Feb 11 2018 Notes"
 date: 2018-02-11T08:19:47-05:00
-draft: true
+draft: false
 tags: ["ML", "18.702", "Chapter0"]
 ---
 
@@ -62,7 +62,7 @@ transformation from \\(\sigma\\) to \\(\rho\\).
 We have that if \\(G\\) is an abelian group then \\(End(G)\\) is a ring.
 In particular, \\(End_{Ab}(\mathbb{Z})\simeq \mathbb{Z}\\).
 
-We have that if \\(R\\) is a ring, right multiplication \\(r\mapsto (r\cdot) :R\to Aut(R)\\)
+We have that if \\(R\\) is a ring, right multiplication \\(r\mapsto (r\cdot) :R\to Aut(R )\\)
 is a ring homomorphism.
 
 You can start considering modules by using these things. 
