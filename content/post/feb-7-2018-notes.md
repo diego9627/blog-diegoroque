@@ -31,6 +31,7 @@ Take two, suppose you have \\(n\\) people deciding something. Each has an (indep
 probability \\(p\\) of being correct. If you decide by majority votes,
 As \\(n\\) grows, it tends to \\(1\\) the prob of correctness. Moreover, it grows strictly monotonically.
 This by some theorem whose name I don't remember.
+(Edit: Neyman-Pearson)
 
 If \\(p\\) varies with \\(n\\), the flip between \\(0\\) and \\(1\\) happens around 
 \\(\frac{1}{2} + \sqrt{\frac{1}{n}}\\)
