@@ -35,7 +35,8 @@ In particular, if the map is surjective, we have
 
 Properties of laplacian:
 
-* If \\(G,H\\) disjoint, then \\(L_{G\cup H} = L_G + L_H\\).
+* If \\(G,H\\) on same nodes with disjoint edges, then 
+\\(L_{G\cup H} = L_G + L_H\\).
 * If vertex is isolated, the row and column of that is zero.
 * \\(L_{G\coprod H} = L_G \oplus L_H \\)
 

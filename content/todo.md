@@ -16,3 +16,4 @@ draft: false
     - Notes?
     - Write notes of the proof of giraud's theorem.
 - [ ] Review Sheaves in Geometry and Logic
+- [ ] Start doing more problems

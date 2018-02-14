@@ -15,11 +15,16 @@ Up to now we have fairness and monotonicity.
 
 Influence of voter \\(i\\) is \\(E_p[f_i]\\).
 
-Theorem (Talagram 94): TODO:WRITE
+Theorem (Talagram 94): Let \\(\delta = \max\_{p,i} E_x[f_i]\\) and \\(p < q\\),
+then \\(E_p[f](1-E_q[f]) \leq exp(c\ln \delta (q-p))\\),
+in particular \\(E_q[correct] \geq 1 - exp(c(q-0.5)\ln\delta)\\)
 
-Theorem (Friedgut-Kalai-96): TODO:WRITE
+Theorem (Friedgut-Kalai-96): If \\(f\\) is transitive and monotone, \\(E_p[f]>\epsilon\\)
+then  \\(E_q[f]>1-\epsilon\\),  for \\(q = p+c \log(\frac{1}{2\epsilon})/\log n \\)
 
-Theorem (Haggstron, Kalai M04): TODO:WRITE
+Theorem (Haggstron, Kalai M04): If \\(n\\) individuals recieve a signal with 
+\\(P[X_i=1]\geq p > \frac{1}{2}\\). If \\(e_i(f,P)\leq \epsilon\\),
+then \\(P[correct]>1-\frac{\varepsilon}{p-0.5}\\).
 
 ## Exercises
 
