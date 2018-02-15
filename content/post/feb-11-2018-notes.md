@@ -9,7 +9,7 @@ tags: ["ML", "18.702", "Chapter0"]
 
 Not much to say. Need to code more.
 
-# 18.702 
+# 18.702 (Self Study)
 
 ## Pset
 

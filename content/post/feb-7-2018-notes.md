@@ -92,6 +92,6 @@ An interesting one, appart from the topological ones, is the following. Consider
 \\(C\\) is categorical. We say \\( \\{ U_i\to X\\}\\) cover \\(X\\) if theres a finite 
 union that covers it. 
 
-# Not AdjS
+# MIT Categories Seminar 
 
 Printed the paper?
