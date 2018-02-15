@@ -1,8 +1,8 @@
 ---
 title: "Feb 14 2018 Notes"
 date: 2018-02-14T09:02:38-05:00
-draft: true
-tags: ["18.S996","18.702"]
+draft: false
+tags: ["18.S996","18.702","MITCT"]
 ---
 
 # 18.S996
@@ -179,3 +179,4 @@ Mine:
 * This paper seems useless
 * Introducing more and more mathematics to the problem of languages seems like epicycles and deferents
 * RNN are doing great at translating
+* No linguists are actually here
