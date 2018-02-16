@@ -70,7 +70,25 @@ Thus
 
  $$ \phi(G) = \min_{S\subset V} \frac{e(S)}{\min(|S|,|\overline{S}|)} \geq \ldots\geq \frac{\lambda_2}{2} $$
 
-To prove tightness, Cheeger's inequality! (again! secon)
+To prove tightness, Cheeger's inequality! (again! second)
+
+We get 
+$$ \frac{\phi(G)}{2d\_{\max}} \leq \lambda_2 \leq \phi(G) $$
+
+This is tight, but it is essentially because we are considering the wrong quantity. We now 
+consider \\(\Phi(G)\\). We will consider this on the normalized laplacian 
+\\(N = D^{\frac{-1}{2}}LD^{\frac{1}{2}}\\).
+Cheeger inequality for this says 
+$$ \frac{\Phi(G)^2}{2} \leq \mu_2 \leq 2\Phi(G) $$
+where \\(\mu_i\\) are the eigenvalues of \\(N\\).
+
+## Getting a cut from (almost) any vector
+
+Suppose you have \\(y\in \mathbb{R}^d\\) perpendicular to the diagonal vector. We will
+order the coordinates, then partition according to a certain threshold, with lower on one side,
+and higher on the other.
+
+End up proving that anything vert close to \\(I\\) is good enough.
 
 # MITCT
 
@@ -80,6 +98,10 @@ Reading the paper. David Spivak agreed it was stupid. Next paper looks more inte
 
 Submitted urop. Will start reading [this](https://arxiv.org/pdf/1701.06972.pdf)
 and watching [this](https://arxiv.org/pdf/1701.06972.pdf).
+
+* Deep Network Guided Proofs
+* DeepMath
+* A Fully Automatic Theorem Prover with Human-Style Output
 
 # DRP
 

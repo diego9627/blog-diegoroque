@@ -5,8 +5,10 @@ draft: false
 ---
 
 - [ ] Reading Applied Category
-    - Current: Mathematical Foundations for a Compositional Distributional Model of Meaning
     - Current: A categorical semantics for causal structure
+- [ ] Reading Category Seminar
+    - Metric Realization of Fuzzy Simplicial Sets 
+    - UMAP
 - [ ] Retroactive Notes
 - [ ] Aluffi : Chapter 0
     - Current : Chapter III
@@ -17,3 +19,8 @@ draft: false
     - Write notes of the proof of giraud's theorem.
 - [ ] Review Sheaves in Geometry and Logic
 - [ ] Start doing more problems
+- [ ] Optimization UROP
+    - [ ] Find out the state of the code
+- [ ] AI Mathematician UROP 
+    - [ ] Read Deep Network Guided Proof Search
+- [ ] Code last semester project
