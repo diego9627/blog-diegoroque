@@ -104,7 +104,7 @@ then \\(E[M(T)] = E[M(0)]\\) (this will be used in exercise).
 Second: Under some conditions, lower bound for \\(Var[M(T)]\\).
 
 Claim : V(i,t) is voter. Exercise: Proof V(i,t) is a martingale.
-Exercise 2: Bound convergence tim ein O(|V|^2). Get better bounds when the graph expands.
+Exercise 2: Bound convergence time in O(|V|^2). Get better bounds when the graph expands.
 
 # 18.702 (Class)
 

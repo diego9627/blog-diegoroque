@@ -2,7 +2,7 @@
 title: "Feb 13 2018 Notes"
 date: 2018-02-13T11:49:02-05:00
 draft: false
-tags: ["Chapter0", "PL/SE Lunch","18.408", "UROP"]
+tags: ["Chapter0", "PL/SE Lunch","18.408", "OptUROP", "DRP"]
 ---
 
 # Chapter 0
@@ -72,7 +72,7 @@ $$\lambda_n\geq  \frac{\sum \deg(i)}{n-1}$$
 Proof: Previous and \\(\lambda_1=0\\)
 
 
-# UROP
+# OptUROP
 
 Nothing except expectancy to work more.
 

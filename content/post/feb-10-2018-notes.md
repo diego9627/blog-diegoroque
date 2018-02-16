@@ -2,7 +2,7 @@
 title: "Feb 10 2018 Notes"
 date: 2018-02-10T07:22:11-05:00
 draft: false
-tags: ["Chapter0","18.701"]
+tags: ["Chapter0","18.702"]
 ---
 
 # Algebra : Chapter 0 
