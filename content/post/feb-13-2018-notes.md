@@ -2,7 +2,7 @@
 title: "Feb 13 2018 Notes"
 date: 2018-02-13T11:49:02-05:00
 draft: false
-tags: ["Chapter0", "PL/SE Lunch","18.408", "OptUROP", "DRP"]
+tags: ["Chapter 0", "PL/SE Lunch","18.408", "Optimization UROP", "DRP"]
 ---
 
 # Chapter 0

@@ -1,7 +1,7 @@
 ---
 title: "Feb 7 2018 Notes"
 date: 2018-02-07T23:30:14-05:00
-tags: ["18.408", "18.S996", "18.702", "CatLog", "MITCT"]
+tags: ["18.408", "18.S996", "18.702", "Categorical Logic", "MIT Categories Seminar"]
 draft: false
 ---
 

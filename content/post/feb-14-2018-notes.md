@@ -2,7 +2,7 @@
 title: "Feb 14 2018 Notes"
 date: 2018-02-14T09:02:38-05:00
 draft: false
-tags: ["18.S996","18.702","MITCT"]
+tags: ["18.S996","18.702","MIT Categories Seminar"]
 ---
 
 # 18.S996

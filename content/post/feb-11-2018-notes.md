@@ -2,7 +2,7 @@
 title: "Feb 11 2018 Notes"
 date: 2018-02-11T08:19:47-05:00
 draft: false
-tags: ["ML", "18.702", "Chapter0"]
+tags: ["ML", "18.702", "Chapter 0"]
 ---
 
 # ML

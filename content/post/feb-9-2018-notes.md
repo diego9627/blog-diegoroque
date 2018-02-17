@@ -2,7 +2,7 @@
 title: "Feb 9 2018 Notes"
 date: 2018-02-09T01:44:41-05:00
 draft: false
-tags: ["18.702", "CatLog", "PLV Lunch"]
+tags: ["18.702", "Categorical Logic", "PLV Lunch"]
 ---
 
 # 18.702

@@ -2,7 +2,7 @@
 title: "Feb 12 2018 Notes"
 date: 2018-02-12T08:26:49-05:00
 draft: false
-tags: ["18.S996", "18.702", "CatLog"]
+tags: ["18.S996", "18.702", "Categorical Logic"]
 ---
 
 # 18.S996
