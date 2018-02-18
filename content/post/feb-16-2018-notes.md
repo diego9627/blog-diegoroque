@@ -14,7 +14,7 @@ Main Theorem on characters
 * Irreducible characters are an orthonormal basis for class functions
 * The number of irreducible representations/characaters is equal to the number 
 of conjugacy classes.
-* If \\(\rho_i\\) are the irreducible representations, with \\(dim \rho_i = d_i\\)
+* If \\(\rho_i\\) are the irreducible representations, with \\(\dim \rho_i = d_i\\)
 then \\(d_k| |G| = \sum_i d_i^2\\).
 
 The main content is the first point. We will use a lemma that's kind of weird

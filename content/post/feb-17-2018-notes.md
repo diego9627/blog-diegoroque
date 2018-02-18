@@ -42,8 +42,9 @@ Made a arxiv-sanity account and added a bunch of papers.
 ## Metric realization of fuzzy simplicial sets. 
 
 Consider the set \\(I = [0,1]\\) under the lower order topology. 
-This means we can take sheaves on the relevant presheave 
-category. We have that \\(S : I^{op}\to Set\\) is a sheaf, then set \\(S^{\geq a}\\)
+This means we can take sheaves on the relevant presheave category. 
+This is actually not doing anything, because any presheaf is a sheaf here.
+We have that \\(S : I^{op}\to Set\\) is a sheaf, then set \\(S^{\geq a}\\)
 as \\(S((0,a)))\\). That is, elements of strength up to \\(a\\). If projections are injective,
 call this a fuzzy set. Turns out this is basically a fuzzy set in the classical sense.
 
@@ -85,3 +86,27 @@ We have that a ball in the ambient space will have around the same number of poi
 Thus we can renormalize in each point according to the k-th nearest. Essentially, we create 
 a distance/metric per point. Now we the problem is that these metrics can be very inconscistent.
 Hence we have to convert them into global structure. Here we use fuzzy simplicial sets.
+
+What follows is basically Spivak's paper rewritten. Except that he focuses on finite 
+versions of those categories.
+
+Thus to handle incompatible metric spaces, we translate each metric into a fuzzy
+simplicial set. By adjointness, this preserves the metric information. To homogenize/normalize/
+ironing out incompatibilities of the fuzzy simplicial sets, we can take fuzzy unions.
+We get a single fuzzy set, which should have the relevant information.
+
+In particular, if we were to have another data set and apply the same procedure, we will end up
+with another fuzzy simplicial set. This means we have two fuzzy simplicial sets,
+so if we can compare them and get a comparison of the metrics. 
+Hence if we were to find an appropiate (low-dimensional) alternative, we would find 
+a reduction in dimentionality.
+
+To compare two fuzzy sets, we define a cross entropy on classical fuzzy sets and translate
+"categorical" fuzzy sets to classical. Finally we can use stochastic gradient descent
+to find the ideal dimensionality reduction.
+
+Then stuff to implement this nicely.
+
+The results are that UMAP is comparable with tSNE when reducing to two/three dimentions.
+UMAP is way faster, single threaded python is faster than single threaded optimized C++ tSNE.
+It has better asymptotic performance in general.
