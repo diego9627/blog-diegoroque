@@ -2,7 +2,7 @@
 title: "Feb 18 2018 Notes"
 date: 2018-02-18T08:58:18-05:00
 draft: false
-tags: ["ml", "optimization urop"]
+tags: ["ml", "optimization urop", "18.702"]
 ---
 
 # ML
