@@ -49,7 +49,7 @@ pygmentsCodeFences = true
 
 [params]
 #  github = "diego9627"
-  twitter = "__gcd"
+#  twitter = "__gcd"
 #  linkedin = "diegoaroque"
 #  email = "droque@mit.edu"
 

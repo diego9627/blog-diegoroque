@@ -5,7 +5,7 @@ draft: false
 tags: ["optimization urop", "plv meeting", "18.702"]
 ---
 
-# Optimizatino UROP
+# Optimization UROP
 
 Implemented proof automatization. Some changes in types. Fixed translation to Haskell 
 then to Julia. 
@@ -29,7 +29,8 @@ In particular, the trace will be the product of the traces.
  
 If we consider \\(\rho, \sigma\\) with representations on \\(A,B\\),
 then considering the averaging map \\(\Phi(T) = \frac{1}{|G|}\sum_g \rho(g)^{-1}T\sigma(g)\\)
-will send everything to a \\(G\\)-invariant map and will have invariant maps as fix points. 
+will send everything to a \\(G\\)-invariant map (because of normal averaging shenaningans)
+and will have invariant maps as fix points (because \\(\rho(g)^{-1}T\sigma(g) = T\\)). 
 Hence its image will be the invariant linear maps. We have that \\(\Phi : A\otimes B 
 \to A\otimes B\\). 
 
@@ -117,7 +118,9 @@ of the discussion of matrices is repeated as long as the rings are nice enough.
 Note that if we want to prove something about matrices, like \\(\det A \det B = \det (AB)\\)
 over modules, it suffices to do it on complex numbers. Suppose we are working on the \\(R\\).
 There's a canonical projection \\(\phi: \mathbb{Z}[\\{x\_{i,j}\\}, \\{y\_{k,l}\\}]\to R\\).
+
 We have that if we define \\(f\_S = \det (AB) - \det A \det B\\) for any ring \\(S\\),
 then \\(\phi\\) links \\(f\_R\\) and \\(f\\) (over \\(\mathbb{Z}[\\{x\_{i,j}\\}, \\{y\_{k,l}\\}]\\)). We have that \\(f\_{\mathbb{C}}\\) is zero and we have that a polynomial in the complex 
 is zero if and only if it's formally zero. Hence we have that the identity is true in the 
 free abelian case. Hence projecting it is true for every case.
+
