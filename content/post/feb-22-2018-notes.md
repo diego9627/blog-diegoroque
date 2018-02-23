@@ -99,6 +99,6 @@ like the way people build categorical groups, or monoids, or etc.
 I guess you can do a category embed in a category?  This is all basically just 
 doing the construction with sets and functions, then replace the set with a category.
 
-you can also do this for symmetric reflexive graphs. But this ends up being
+You can also do this for symmetric reflexive graphs. But this ends up being
 a subcategory of \\( FinSet^{op} \\). THis brings us to simplicial sets,
 and bumps it back to reflexive graphs.
