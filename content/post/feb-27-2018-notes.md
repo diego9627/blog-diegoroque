@@ -204,6 +204,7 @@ Reinforcement is about learning on one action, attention is about learning on fo
 
 # AI Mathematician UROP
 
+Read a bunch of papers:
 
 ## Learning to Compose Neural Netowrks for Question Answering
 
@@ -214,3 +215,37 @@ Neural modules look like Neural Turing Machine/Neural Programmer, but instead of
 skills (recognizing where's a bird) and not only crisp skills (adding), when breaking 
 questions.
 
+Each word is attached a particular instanciated module, then the question is translated
+into (several) tree structures, then attention/NTM over them and input.
+
+Experimental results are "state-of-the-art". Note that this is kind of a general approach.
+
+The core idea would be NTM but with neural modules (that are jointly trained).
+
+## Deep Compositional Question Answering with Neural Module Networks
+
+Essentially the same as the previous one??? But it focuses in a different set of 
+neural modules, more towards answering questions about pictures. Here it is mainly a refinement
+of the previous paper to use those kind of modules. 
+
+## Inferring and Executing Programs for Visual Reasoning
+
+
+## Learning Knowledge Base Inference with Neural Theorem Provers
+
+## Programming with a Differentiable Forth Interpreter
+
+## End-to-End Differentiable Theorem Proving
+
+## Machine Learning of **Coq** Proof guidance: First Experiments
+
+## Holophrasm: a neural Automated Theorem Prover for higher-order logic
+
+## Proof Mining with Dependent Types
+
+## HOLStep: A Machine Learning Dataset for Higher-Order Logic Theorem Proving
+
+## From Gameplay To Symbolic Reasoning: Learning SAT Solver Heuristics in the Style of Alpha(Go)Zero
+
+Exactly what it says on the tin. SAT is the game. Expanding is step. 
+Getting instance/Disproving is winning. Play!
