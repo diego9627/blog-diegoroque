@@ -2,7 +2,7 @@
 title: "Feb 28 2018 Notes"
 date: 2018-02-28T09:29:06-05:00
 draft: false
-tags: ["18.S996", "18.702", "Categorical Logic", "18.615"]
+tags: ["18.S996", "18.702", "Categorical Logic", "18.615", "6.851"]
 ---
 
 # 18.S996
@@ -41,3 +41,7 @@ while localizing locales might actually throw a lot of stuff you want out.
 # 18.615
 
 Finished pset. Kind of easy.
+
+# 6.851 
+
+Started working (again) in 6.851.
