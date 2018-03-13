@@ -8,3 +8,7 @@ tags: ["18.S996", "Categorical Logic"]
 # 18.S996
 
 Exercise about Sequential model: Something about variance being limited.
+
+# Categorical Logic
+
+TODO
