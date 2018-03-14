@@ -9,9 +9,9 @@ tags: ["18.702"]
 
 More ideals. Prime ideals. Maximal ideals.
 
-If \\(m\subset R\\) is a maximal ideal, then \\(R/m is (isomorphic) to a field\\).
+If \\(m\subset R\\) is a maximal ideal, then \\(R/m\\) is (isomorphic) to a field.
 
-Why? \\(R/m\\ has two ideals, the unit and the zero. Thus everything as an inverse. That is,
+Why? \\(R/m\\) has two ideals, the unit and the zero. Thus everything as an inverse. That is,
 if \\(x\neq 0\\), then \\((x)\\) is either the unit or zero. It isn't zero, so it is unit.
 So \\(1 = xy\\) for some \\(y\\). 
 
