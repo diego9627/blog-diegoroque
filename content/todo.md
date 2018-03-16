@@ -11,7 +11,7 @@ draft: false
     - UMAP
 - [ ] Retroactive Notes
 - [ ] Aluffi : Chapter 0
-    - Current : Chapter III
+    - Current : Chapter III.6
 - [ ] Categorical Homotopy Theory
     - Current : Chapter I
 - [ ] DRP Problems

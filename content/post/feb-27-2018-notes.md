@@ -5,6 +5,8 @@ draft: false
 tags: ["18.175", "AI Mathematician UROP", "ML", "18.408", "18.615"]
 ---
 
+# 18.175
+
 Three modes of convergence,
 
 1. Pointwise \\(P(\lim\_{n\to \infty} \xi_n(x) = \xi(x)) = 1\\)
